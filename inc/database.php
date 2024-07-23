@@ -10,7 +10,7 @@ class Database
 
     public function connect_db()
     {
-        $this->connection = new mysqli('localhost', 'root', '', 'cozy_chapters');
+        $this->connection = new mysqli('localhost', 'root', '', 'cozyChapters');
         if ($this->connection->connect_error) {
             die("Database connection failed: " . $this->connection->connect_error);
         }

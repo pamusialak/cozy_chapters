@@ -1,6 +1,6 @@
- CREATE DATABASE cozy_chapters;
+ CREATE DATABASE cozyChapters;
  
-USE cozy_chapters;
+USE cozyChapters;
  
  CREATE TABLE books(
 	isbn varchar(13) primary key,
