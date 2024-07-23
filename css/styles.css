@@ -1,7 +1,7 @@
 :root {
     --primary-color: #FFC4E0;
     --secondary-color: #98B6B1;
-    --third-color: #FFC07F;
+    --tertiary-color: #FFC07F;
     --background-color: #EF8354;
     --text-color: #67597A;
     --white-color: #fff;
@@ -68,7 +68,7 @@ header img {
 main {
     padding: 2em;
     text-align: center;
-    background-color: var(--third-color);
+    background-color: var(--tertiary-color);
     margin: 2em auto;
     border-radius: 15px;
     max-width: 800px;
@@ -80,7 +80,6 @@ footer {
     text-align: center;
     padding: 1em 0;
     border-radius: 15px 15px 0 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }

@@ -15,8 +15,8 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="form.php">Add a Book</a></li>
-            <li><a href="#allbooks">All books</a></li>
-            <li><a href="#store">Store</a></li>
+            <li><a href="allbooks.php">All books</a></li>
+            <li><a href="store.php">Store</a></li>
         </ul>
     </nav>
 
