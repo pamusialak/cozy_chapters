@@ -74,6 +74,49 @@ main {
     max-width: 800px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.table {
+  width: 100%;
+  margin: 2em auto;
+  border-collapse: collapse;
+  background-color: var(--white-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.table thead th {
+  padding: 1em;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.table tbody td {
+  padding: 1em;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.table tbody tr:hover {
+  background-color: var(--tertiary-color);
+  color: var(--black-color);
+}
+
+.table tbody tr td img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
 footer {
     background-color: var(--secondary-color);
     color: var(--text-color);

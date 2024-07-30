@@ -17,7 +17,14 @@
             <li><a href="form.php">Add a Book</a></li>
             <li><a href="allbooks.php">All books</a></li>
             <li><a href="store.php">Store</a></li>
+            <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true): ?>
+                    <li><a href="logout.php">Logout (<?php echo $_SESSION['username']; ?>)</a></li>
+                <?php else: ?>
+                    <li><a href="signin.php">Login</a></li>
+                <?php endif; ?>
         </ul>
     </nav>
 
 </header>
+
+</html>
